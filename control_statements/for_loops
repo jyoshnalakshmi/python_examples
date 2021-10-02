@@ -1,0 +1,25 @@
+#-------------------------------------------------------
+#Description : for loop
+#syntax : 
+#     for item in items:
+#       statements;
+#About : Iterates over single character of a string
+#------------------------------------------------------------
+
+team ="csk";
+print("-------iterating over a string-----");
+for s in team:
+  print(s);
+
+#----------------------------------------------------------
+#Description : for loop
+#syntax : 
+#     for key,value in parameters.items():
+#       statements;
+#About       : Iterates over a associative array
+#------------------------------------------------------------
+
+players = {'RCB':'Virat Kohli','CSK':'MSD','Rahul':'Punjab'}; 
+print("----------Iterating over a associate array(Dictionary)---------------");
+for team,player in players.items():
+  print(team,"->",player);
